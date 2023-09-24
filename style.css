@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto ;
+}
+
+header i{
+    font-size: 2rem;
+    padding: 0 15px;
+}
+
+.img-div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.multi-div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 0;
+    box-shadow: 24px 16px 30px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 24px 20px 30px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 20px 30px -4px rgba(0,0,0,0.75);
+}
+
+.multi-div div{
+    margin: 0 20px;
+}
+
+.info-parrafo{
+    width: 60%;
+    margin: 10px 0;
+}
+
+.info-parrafo i{
+    font-size: 2rem;
+}
+
+.info-parrafo p{
+    margin: 10px 0;
+}
